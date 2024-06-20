@@ -107,7 +107,7 @@ Todo :
 ***
 
 # Note
-**Most important : when developing always use git, you wont regret it, i almost did**
+**Most important : when developing always use git, you won't regret it, i almost did**
 
 You need internet access on your proxmox to install packages in pfsense.tf in /module/pfsense/ansible/scripts/pfsense.tf in the remote_exec block.
 

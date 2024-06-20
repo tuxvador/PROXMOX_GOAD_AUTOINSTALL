@@ -53,7 +53,7 @@ selesct **installation hostname** in Hostname resolution and download config
 once the download is done, put the file in the directory of your choice and create file auth.txt
 ![Alt text](files/images/image5.png)
 
-in this file put the username and password on two seprate lines
+in this file put the username and password on two seprate lines, the password for the goaduser is the same as for pfsense but you can change it in pfsense admin
 ![Alt text](files/images/image6.png)
 
 open the ovpn file you download and edit the auth-pass directive and include the absolute path to auth.txt:

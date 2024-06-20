@@ -81,12 +81,13 @@ bash modules/provisioning/scripts/destroy.sh #to destroy all goad vms
 *** 
 Fill free to commit any issues met with the script with your setup or make a push commit to ameliorate the script, or if you notice any errors
 ***
-Estimated install time :
+```
 PFSense version : pfSense-CE-2.7.2
 Ansible version : core 2.14.3
 Terraform version : v1.8.4
 lxml version : 5.2.2
 pfsensible.core version : 0.6.1
+```
 
 ***
 install time : 1h40 without iso downloads and template creation

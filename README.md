@@ -96,13 +96,13 @@ install time : 1h40 without iso downloads and template creation
 Todo :
 - TODO, download GOAD and make a local copy to provisionning and edit post install, to avoid repo being broken after repo modification
 - Make the script be able to deploy other labs
-- AUtomate ovpn download
+- Automate ovpn download
 - Check all variables that can be imported to the config
 - Remove duplicates from config, maybe
 - review firewall rules for vlan10 to disable internet acces after download
 - Delete provisionning vm after install
 - change goad user password in pfsense ansible playbook to make it interactive
-- Run the script with no iso download and template creation to determine the full install time depending on bandwith
+- Run the script with iso download and template creation to determine the full install time depending on bandwith
 - edit bash modules/provisioning/scripts/destroy.sh to automaticaly generate the node name
 ***
 
